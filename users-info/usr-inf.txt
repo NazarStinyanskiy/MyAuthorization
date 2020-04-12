@@ -1,0 +1,9 @@
+1 admin=12345
+2 user=password
+3 Nekit=qwerty
+4 Kolian=propolis
+5 as=asss
+6 joji=rapper
+7 asdf=asdf
+8 asdff=asdff
+9 qwer=qwer
