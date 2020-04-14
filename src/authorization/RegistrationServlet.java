@@ -22,7 +22,6 @@ public class RegistrationServlet extends HttpServlet {
         PrintWriter writer = resp.getWriter();
 
         RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/html/registration.html");
-        System.out.println(rd);
         rd.forward(req, resp);
 
         writer.close();

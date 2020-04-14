@@ -48,6 +48,7 @@ public class AuthorizationHandler {     // обработчик
     }
 
     public LogStatus log(String login, String password) {
+        System.out.println(path);
         if(!isUserExist(login)) {return LogStatus.UN_CORRECT_LOGIN;}
         if(!checkPassword(login, password)){return  LogStatus.WRONG_PASSWORD;}
 
